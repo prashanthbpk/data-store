@@ -18,7 +18,7 @@
     <http:listener path="/parrot" config-ref="HTTP-Config" doc:name="Listener" doc:id="kbclmt" />
     <flow-ref name="name1" />
     <set-payload value="Value from Code Builder Demo App, deployment SUCCESS...." doc:name="Set payload" doc:id="xsrvos"  />
-    <ee:transform doc:name="Transform" doc:id="pmfotp" variables="variables" />
+    <ee:transform doc:name="Transform" doc:id="pmfotp"  />
     
     <logger doc:name="Logger" doc:id="otyynp" message="output logged"/>
     
