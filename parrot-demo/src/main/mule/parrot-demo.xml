@@ -14,6 +14,7 @@
   <flow name="parrot-test-flow" >
     <http:listener path="/parrot" config-ref="HTTP-Config" doc:name="Listener" doc:id="kbclmt" />
     <set-payload value="Value from Code Builder Demo App, deployment SUCCESS...." doc:name="Set payload" doc:id="xsrvos"  />
+    <logger doc:name="Logger" doc:id="otyynp" message="output logged"/>
     
   </flow>
     
