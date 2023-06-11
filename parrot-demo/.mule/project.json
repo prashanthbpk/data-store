@@ -1,0 +1,10 @@
+{
+  "modelVersion": "1.0.0",
+  "name": "parrot-demo",
+  "version": "1.0.0-SNAPSHOT",
+  "source": "file:///home/nature123/test-data-folder/parrot-demo/pom.xml",
+  "natures": [
+    "mule"
+  ],
+  "components": []
+}
